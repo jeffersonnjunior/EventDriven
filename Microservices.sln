@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MembershipPlanManagement", "MembershipPlanManagement", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{007C2CB3-46B1-4F69-A227-EDB2E0C15AA5}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinancialProcessingTaxationModule", "FinancialProcessingTaxationModule", "{BE2DBBD0-02A9-4A59-A267-C3881EBEA490}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "FinancialProcessingTaxationModule\Api\Api.csproj", "{A79FE992-E2B5-4A95-98ED-908F546D5C4E}"
@@ -21,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{007C2CB3-46B1-4F69-A227-EDB2E0C15AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{007C2CB3-46B1-4F69-A227-EDB2E0C15AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{007C2CB3-46B1-4F69-A227-EDB2E0C15AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{007C2CB3-46B1-4F69-A227-EDB2E0C15AA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A79FE992-E2B5-4A95-98ED-908F546D5C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A79FE992-E2B5-4A95-98ED-908F546D5C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A79FE992-E2B5-4A95-98ED-908F546D5C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,7 +30,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{007C2CB3-46B1-4F69-A227-EDB2E0C15AA5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{A79FE992-E2B5-4A95-98ED-908F546D5C4E} = {BE2DBBD0-02A9-4A59-A267-C3881EBEA490}
 		{DB8C8863-15A6-44C4-BE69-EBBECA8F5F9B} = {B0DB2EF2-0C3A-4998-B28F-C644993FE9C9}
 	EndGlobalSection
