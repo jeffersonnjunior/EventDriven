@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ComplianceReporting", "Comp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "ComplianceReporting\Api\Api.csproj", "{DB8C8863-15A6-44C4-BE69-EBBECA8F5F9B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MembershipPlanManagement", "MembershipPlanManagement", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{E9C00E93-D0C4-4208-8015-8DACE370BBC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{DB8C8863-15A6-44C4-BE69-EBBECA8F5F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB8C8863-15A6-44C4-BE69-EBBECA8F5F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB8C8863-15A6-44C4-BE69-EBBECA8F5F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C00E93-D0C4-4208-8015-8DACE370BBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C00E93-D0C4-4208-8015-8DACE370BBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C00E93-D0C4-4208-8015-8DACE370BBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C00E93-D0C4-4208-8015-8DACE370BBC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A79FE992-E2B5-4A95-98ED-908F546D5C4E} = {BE2DBBD0-02A9-4A59-A267-C3881EBEA490}
 		{DB8C8863-15A6-44C4-BE69-EBBECA8F5F9B} = {B0DB2EF2-0C3A-4998-B28F-C644993FE9C9}
+		{E9C00E93-D0C4-4208-8015-8DACE370BBC1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7120E038-6F49-4BF8-9AA8-147FFB63D0B5}
