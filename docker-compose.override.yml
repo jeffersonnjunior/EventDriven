@@ -1,0 +1,21 @@
+services:
+  membershipplanmanagement-api:
+    image: ${DOCKER_REGISTRY-}membershipplanmanagement-api
+    build:
+      context: .
+      dockerfile: MembershipPlanManagement/Api/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:7.0
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: MembershipPlanManagementDb
