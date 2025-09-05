@@ -1,9 +1,10 @@
 ﻿using MongoDB.Driver;
 using Microsoft.Extensions.Configuration;
+using Infrastructure.Interfaces.IPersistence;
 
 namespace Infrastructure.Persistence.Context;
 
-public class MongoContext
+public class MongoContext : IMongoContext
 {
     private readonly IMongoDatabase _database;
 

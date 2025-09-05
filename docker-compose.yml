@@ -5,10 +5,10 @@ services:
       context: .
       dockerfile: MembershipPlanManagement/Api/Dockerfile
     ports:
-      - "8080:8080"
-      - "8081:8081"
+      - "5200:5200"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5200
     depends_on:
       - mongo
 
