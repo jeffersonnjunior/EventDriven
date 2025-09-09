@@ -5,17 +5,17 @@ using Infrastructure.Interfaces.IPersistence;
 
 namespace Application.Queries.BenefitQueries.Handlers;
 
-public class GetAllOrdersQueryHandler : IRequestHandler<GetAllOrdersQuery, List<OrderDto>>
+public class GetAllBenefitsQueryHandler : IRequestHandler<GetAllBenefitsQuery, List<BenefitDto>>
 {
     private readonly IMongoContext _mongoContext;
-    public GetAllOrdersQueryHandler(IMongoContext mongoContext)
+    public GetAllBenefitsQueryHandler(IMongoContext mongoContext)
     {
         _mongoContext = mongoContext;
     }
 
-    public async Task<List<OrderDto>> Handle(GetAllOrdersQuery request, CancellationToken cancellationToken)
+    public async Task<List<BenefitDto>> Handle(GetAllBenefitsQuery request, CancellationToken cancellationToken)
     {
-        var collection = _mongoContext.GetCollection<OrderDto>("Orders");
+        var collection = _mongoContext.GetCollection<BenefitDto>("Benefits");
         return await collection.Find(_ => true).ToListAsync(cancellationToken);
     }
 }

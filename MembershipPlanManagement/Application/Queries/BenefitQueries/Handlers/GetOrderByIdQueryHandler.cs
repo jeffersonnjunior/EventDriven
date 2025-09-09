@@ -1,7 +1,7 @@
 using Application.Queries.BenefitQueries.Dtos;
 using MediatR;
 using MongoDB.Driver;
-using MembershipPlanManagement.Infrastructure.Persistence.Context;
+using Infrastructure.Interfaces.IPersistence;
 
 namespace Application.Queries.BenefitQueries.Handlers;
 
