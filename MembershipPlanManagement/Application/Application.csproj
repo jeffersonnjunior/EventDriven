@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Commands\BenefitCommands\Validators\" />
     <Folder Include="Behaviors\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Queries\" />
   </ItemGroup>
 
