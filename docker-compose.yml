@@ -19,3 +19,12 @@ services:
       - "27017:27017"
     environment:
       MONGO_INITDB_DATABASE: MembershipPlanManagementDb
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"      # Porta para aplicações (AMQP)
+      - "15672:15672"    # Porta para acessar o painel web do RabbitMQ
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
