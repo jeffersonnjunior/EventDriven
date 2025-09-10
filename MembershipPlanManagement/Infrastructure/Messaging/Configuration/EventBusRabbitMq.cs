@@ -1,6 +1,6 @@
 using RabbitMQ.Client;
 
-namespace Infrastructure.Messaging;
+namespace Infrastructure.Messaging.Configuration;
 
 public class EventBusRabbitMq
 {

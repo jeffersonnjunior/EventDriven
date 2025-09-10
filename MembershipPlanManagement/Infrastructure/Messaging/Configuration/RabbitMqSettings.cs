@@ -1,4 +1,4 @@
-namespace Infrastructure.Messaging;
+namespace Infrastructure.Messaging.Configuration;
 
 public class RabbitMqSettings
 {
