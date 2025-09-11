@@ -28,10 +28,3 @@ services:
     environment:
       RABBITMQ_DEFAULT_USER: guest
       RABBITMQ_DEFAULT_PASS: guest
-
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinancialProcessingTaxationModule", "FinancialProcessingTaxationModule", "{A-NEW-GUID-HERE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "FinancialProcessingTaxation\Api\Api.csproj", "{B03EAC04-EAC3-44C2-991C-B87717408A94}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "FinancialProcessingTaxation\Domain\Domain.csproj", "{ED47D389-C121-4507-874D-DA959EEC7E8E}"
-EndProject
