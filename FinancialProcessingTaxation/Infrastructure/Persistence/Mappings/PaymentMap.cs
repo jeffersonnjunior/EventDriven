@@ -2,7 +2,7 @@ using FinancialProcessingTaxation.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace FinancialProcessingTaxation.Infrastructure.Persistence
+namespace Infrastructure.Persistence.Mappings
 {
     public class PaymentMap : IEntityTypeConfiguration<Payment>
     {
