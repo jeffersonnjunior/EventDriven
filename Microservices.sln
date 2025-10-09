@@ -11,7 +11,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "TransactionProcessing\Api\Api.csproj", "{7E4A795A-ACB0-4CDE-9723-848583806D28}"
 EndProject
 
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "ContractManagement\Api\Api.csproj", "{2150E333-8FDC-42A3-9474-1A3956D46DE8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}}") = "Api", "ContractManagement\Api\Api.csproj", "{B5A9F2E5-9E63-4E6F-97E5-EC32C15F8B63}"
 EndProject
 
 
