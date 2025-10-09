@@ -2,25 +2,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.0.11018.127
 MinimumVisualStudioVersion = 10.0.40219.1
-
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContractManagement", "ContractManagement", "{A9D7C3E1-1E1D-4A5F-9E6F-23E25C9A1C3A}"
 EndProject
-
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionProcessing", "TransactionProcessing", "{F7E8B1B6-4E64-4E4C-9C69-91E7E9739A9D}"
 EndProject
-
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractManagement.Api", "ContractManagement\ContractManagement.Api\ContractManagement.Api.csproj", "{6894A452-EC07-4281-94FC-7D7F0F8FE7EE}"
 EndProject
-
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionProcessing.Api", "TransactionProcessing\TransactionProcessing.Api\TransactionProcessing.Api.csproj", "{ED8AB799-4C68-4B36-BB17-20C011088215}"
 EndProject
-
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FundPerformanceManagement", "FundPerformanceManagement", "{14BF3F91-79C2-4947-8276-D08D8D36166D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundPerformanceManagement.Api", "FundPerformanceManagement.Api\FundPerformanceManagement.Api.csproj", "{2DDBBABC-E590-4DF8-93F9-6B21258FA72E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6894A452-EC07-4281-94FC-7D7F0F8FE7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6894A452-EC07-4281-94FC-7D7F0F8FE7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -30,17 +28,19 @@ Global
 		{ED8AB799-4C68-4B36-BB17-20C011088215}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED8AB799-4C68-4B36-BB17-20C011088215}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED8AB799-4C68-4B36-BB17-20C011088215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDBBABC-E590-4DF8-93F9-6B21258FA72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDBBABC-E590-4DF8-93F9-6B21258FA72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDBBABC-E590-4DF8-93F9-6B21258FA72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDBBABC-E590-4DF8-93F9-6B21258FA72E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-
 	GlobalSection(NestedProjects) = preSolution
 		{6894A452-EC07-4281-94FC-7D7F0F8FE7EE} = {A9D7C3E1-1E1D-4A5F-9E6F-23E25C9A1C3A}
 		{ED8AB799-4C68-4B36-BB17-20C011088215} = {F7E8B1B6-4E64-4E4C-9C69-91E7E9739A9D}
+		{2DDBBABC-E590-4DF8-93F9-6B21258FA72E} = {14BF3F91-79C2-4947-8276-D08D8D36166D}
 	EndGlobalSection
-
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7120E038-6F49-4BF8-9AA8-147FFB63D0B5}
 	EndGlobalSection
