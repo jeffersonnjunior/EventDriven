@@ -20,8 +20,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionProcessing.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionProcessing.Infrastructure", "TransactionProcessing\TransactionProcessing.Infrastructure\TransactionProcessing.Infrastructure.csproj", "{10DA68AD-0F4F-487A-805E-18AB5B62AA9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundPerformanceManagement.Application", "FundPerformanceManagement.Application\FundPerformanceManagement.Application.csproj", "{B0BCAF9A-5E68-4BAC-BA62-DE6D771FEE39}"
-EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
