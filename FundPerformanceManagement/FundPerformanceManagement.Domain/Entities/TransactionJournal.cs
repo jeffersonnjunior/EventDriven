@@ -7,8 +7,8 @@ public class TransactionJournal
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; }
-    public string ContractId { get; set; }
+    public Guid Id { get; set; }
+    public Guid ContractId { get; set; }
     public string TransactionType { get; set; } 
     public decimal ValueBRL { get; set; }
     public decimal QuotesProcessed { get; set; } 
