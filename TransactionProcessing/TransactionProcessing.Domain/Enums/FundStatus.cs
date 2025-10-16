@@ -1,24 +1,24 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 
-namespace TransactionProcessing.Domain.Enums;
+namespace FundPerformanceManagement.Domain.Enums;
 
 public enum FundStatus
 {
-    [BsonElement("active")]
+    [BsonElement("ativo")]
     Active,
 
-    [BsonElement("inactive")]
+    [BsonElement("inativo")]
     Inactive,
 
-    [BsonElement("liquidating")]
+    [BsonElement("liquidando")]
     Liquidating,
 
-    [BsonElement("closed")]
+    [BsonElement("fechado")]
     Closed,
 
-    [BsonElement("suspended")]
+    [BsonElement("suspenso")]
     Suspended,
 
-    [BsonElement("under_review")]
+    [BsonElement("em_analise")]
     UnderReview
 }
