@@ -2,23 +2,23 @@
 
 namespace FundPerformanceManagement.Domain.Enums;
 
-public enum TransactionStatus
+public enum FundStatus
 {
-    [BsonElement("pendente")]
-    Pending,
+    [BsonElement("ativo")]
+    Active,
 
-    [BsonElement("processando")]
-    Processing,
+    [BsonElement("inativo")]
+    Inactive,
 
-    [BsonElement("concluida")]
-    Completed,
+    [BsonElement("liquidando")]
+    Liquidating,
 
-    [BsonElement("falhada")]
-    Failed,
+    [BsonElement("fechado")]
+    Closed,
 
-    [BsonElement("cancelada")]
-    Cancelled,
+    [BsonElement("suspenso")]
+    Suspended,
 
-    [BsonElement("em_espera")]
-    OnHold
+    [BsonElement("em_analise")]
+    UnderReview
 }
