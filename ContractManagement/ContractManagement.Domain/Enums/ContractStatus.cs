@@ -4,21 +4,21 @@ namespace ContractManagement.Domain.Enums;
 
 public enum ContractStatus
 {
-    [BsonElement("draft")]
+    [BsonElement("rascunho")]
     Draft,
-    
-    [BsonElement("active")]
+
+    [BsonElement("ativo")]
     Active,
-    
-    [BsonElement("suspended")]
+
+    [BsonElement("suspenso")]
     Suspended,
-    
-    [BsonElement("terminated")]
+
+    [BsonElement("encerrado")]
     Terminated,
-    
-    [BsonElement("expired")]
+
+    [BsonElement("expirado")]
     Expired,
-    
-    [BsonElement("under_review")]
+
+    [BsonElement("em_analise")]
     UnderReview
 }
