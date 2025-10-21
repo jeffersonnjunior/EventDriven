@@ -8,6 +8,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContributionFinancial.Api",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActuarialBenefit.Api", "ActuarialBenefit\ActuarialBenefit.Api\ActuarialBenefit.Api.csproj", "{27192A24-EDFC-4FA9-B8CB-49E8A3F1EB96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActuarialBenefit.Application", "ActuarialBenefit\ActuarialBenefit.Application\ActuarialBenefit.Application.csproj", "{DD846369-51E3-45E9-BF55-47070A05688C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActuarialBenefit.Domain", "ActuarialBenefit\ActuarialBenefit.Domain\ActuarialBenefit.Domain.csproj", "{F596326D-634F-4F5C-A81F-09C92C61B4B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActuarialBenefit.Infrastructure", "ActuarialBenefit\ActuarialBenefit.Infrastructure\ActuarialBenefit.Infrastructure.csproj", "{48364231-4131-4560-8053-A3C50218328A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +32,18 @@ Global
 		{27192A24-EDFC-4FA9-B8CB-49E8A3F1EB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27192A24-EDFC-4FA9-B8CB-49E8A3F1EB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27192A24-EDFC-4FA9-B8CB-49E8A3F1EB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD846369-51E3-45E9-BF55-47070A05688C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD846369-51E3-45E9-BF55-47070A05688C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD846369-51E3-45E9-BF55-47070A05688C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD846369-51E3-45E9-BF55-47070A05688C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F596326D-634F-4F5C-A81F-09C92C61B4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F596326D-634F-4F5C-A81F-09C92C61B4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F596326D-634F-4F5C-A81F-09C92C61B4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F596326D-634F-4F5C-A81F-09C92C61B4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48364231-4131-4560-8053-A3C50218328A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48364231-4131-4560-8053-A3C50218328A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48364231-4131-4560-8053-A3C50218328A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48364231-4131-4560-8053-A3C50218328A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
