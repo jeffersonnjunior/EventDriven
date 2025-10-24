@@ -1,5 +1,7 @@
-﻿namespace ActuarialBenefit.Domain.Services;
+﻿using ActuarialBenefit.Domain.Interfaces;
 
-internal class EnrollmentCoordinatorService
+namespace ActuarialBenefit.Domain.Services;
+
+public class EnrollmentCoordinatorService : IEnrollmentCoordinatorService
 {
 }
