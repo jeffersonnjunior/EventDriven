@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Api", "PlanM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Application", "PlanManagement\PlanManagement.Application\PlanManagement.Application.csproj", "{BCAC6DED-A365-4109-AC9F-69252324AAA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Domain", "PlanManagement\PlanManagement.Domain\PlanManagement.Domain.csproj", "{13A27D13-429E-4C3D-AF8E-DAB3C0821288}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{BCAC6DED-A365-4109-AC9F-69252324AAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCAC6DED-A365-4109-AC9F-69252324AAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCAC6DED-A365-4109-AC9F-69252324AAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A27D13-429E-4C3D-AF8E-DAB3C0821288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A27D13-429E-4C3D-AF8E-DAB3C0821288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A27D13-429E-4C3D-AF8E-DAB3C0821288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A27D13-429E-4C3D-AF8E-DAB3C0821288}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
