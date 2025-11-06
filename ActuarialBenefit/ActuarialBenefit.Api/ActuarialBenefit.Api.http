@@ -1,6 +1,0 @@
-@ActuarialBenefit.Api_HostAddress = http://localhost:5115
-
-GET {{ActuarialBenefit.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
