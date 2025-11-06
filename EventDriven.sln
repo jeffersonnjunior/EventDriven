@@ -4,6 +4,8 @@ VisualStudioVersion = 18.0.11018.127
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Api", "PlanManagement\PlanManagement.Api\PlanManagement.Api.csproj", "{30DCD368-DD0C-4130-B8BA-F87ED7824745}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Application", "PlanManagement\PlanManagement.Application\PlanManagement.Application.csproj", "{BCAC6DED-A365-4109-AC9F-69252324AAA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{30DCD368-DD0C-4130-B8BA-F87ED7824745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30DCD368-DD0C-4130-B8BA-F87ED7824745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30DCD368-DD0C-4130-B8BA-F87ED7824745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAC6DED-A365-4109-AC9F-69252324AAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAC6DED-A365-4109-AC9F-69252324AAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAC6DED-A365-4109-AC9F-69252324AAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAC6DED-A365-4109-AC9F-69252324AAA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
