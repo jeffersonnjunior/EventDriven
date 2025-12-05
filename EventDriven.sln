@@ -2,13 +2,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.0.11018.127
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Api", "PlanManagement\PlanManagement.Api\PlanManagement.Api.csproj", "{30DCD368-DD0C-4130-B8BA-F87ED7824745}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Api", "PlanManagement\PlanManagement.Api\EventDriven.Api.csproj", "{30DCD368-DD0C-4130-B8BA-F87ED7824745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Application", "PlanManagement\PlanManagement.Application\PlanManagement.Application.csproj", "{BCAC6DED-A365-4109-AC9F-69252324AAA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Application", "PlanManagement\PlanManagement.Application\EventDriven.Application.csproj", "{BCAC6DED-A365-4109-AC9F-69252324AAA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Domain", "PlanManagement\PlanManagement.Domain\PlanManagement.Domain.csproj", "{13A27D13-429E-4C3D-AF8E-DAB3C0821288}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Domain", "PlanManagement\PlanManagement.Domain\EventDriven.Domain.csproj", "{13A27D13-429E-4C3D-AF8E-DAB3C0821288}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanManagement.Infrastructure", "PlanManagement\PlanManagement.Infrastructure\PlanManagement.Infrastructure.csproj", "{27050783-BA4D-4896-94B9-0F43FACDE004}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDriven.Infrastructure", "PlanManagement\PlanManagement.Infrastructure\EventDriven.Infrastructure.csproj", "{27050783-BA4D-4896-94B9-0F43FACDE004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
