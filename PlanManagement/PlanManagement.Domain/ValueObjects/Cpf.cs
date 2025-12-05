@@ -1,4 +1,4 @@
-﻿namespace PlanManagement.Domain.ValueObjects.PlanManagement;
+﻿namespace EventDriven.Domain.ValueObjects;
 
 public sealed class Cpf
 {
