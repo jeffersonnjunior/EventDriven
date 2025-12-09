@@ -1,4 +1,5 @@
-﻿using EventDriven.Domain.ValueObjects;
+﻿using EventDriven.Domain.Enums;
+using EventDriven.Domain.ValueObjects;
 
 namespace PlanManagement.Domain.Aggregates.PlanManagement;
 
@@ -16,10 +17,4 @@ public class Participant
         this.Type = type;
         this.Cpf = cpf;
     }
-}
-
-public enum ParticipantType
-{
-    Holder, 
-    Beneficiary 
 }

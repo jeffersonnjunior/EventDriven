@@ -2,6 +2,7 @@
 using PlanManagement.Domain.Aggregates.PlanManagement;
 using Domain.Exceptions;
 using EventDriven.Domain.Events;
+using EventDriven.Domain.Enums;
 
 namespace EventDriven.Domain.Aggregates.PlanManagement;
 
@@ -69,5 +70,3 @@ public class ContractRoot
         ));
     }
 }
-
-public enum ContractStatus { Draft, Closed, Active, Terminated }
