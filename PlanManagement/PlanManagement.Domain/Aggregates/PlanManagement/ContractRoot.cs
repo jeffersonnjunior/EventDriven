@@ -9,16 +9,11 @@ namespace EventDriven.Domain.Aggregates.PlanManagement;
 public class ContractRoot
 {
     public Guid Id { get; private set; }
-
     public string ContractNumberValue { get; private set; }
-
     public ProposalValue InitialValue { get; private set; }
     public ContractStatus Status { get; private set; } = ContractStatus.Draft;
-
-    // Coleção de Entidades gerenciadas
     private readonly List<Participant> _participants = new List<Participant>();
     public IReadOnlyCollection<Participant> Participants => _participants.AsReadOnly();
-
     private readonly NotificationContext _notifications;
 
     public ContractRoot(Guid id, ProposalValue initialValue)
