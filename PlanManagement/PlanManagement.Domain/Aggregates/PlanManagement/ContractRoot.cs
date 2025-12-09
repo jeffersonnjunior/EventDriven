@@ -32,11 +32,11 @@ public class ContractRoot
     {
         if (this.Status != ContractStatus.Draft)
         {
-            _notifications.AddNotification("InvalidStatus", "Cannot add participants to a non-draft contract.");
+            _notifications.AddNotification("StatusInválido", "Não é possível adicionar participantes a um contrato que não está em rascunho.");
         }
         if (this._participants.Any(p => p.Cpf.Value == participant.Cpf.Value))
         {
-            _notifications.AddNotification("DuplicateCpf", $"Participant with CPF {participant.Cpf.Value} already exists.");
+            _notifications.AddNotification("CpfDuplicado", $"Participante com CPF {participant.Cpf.Value} já existe.");
         }
 
         _participants.Add(participant);
@@ -46,17 +46,17 @@ public class ContractRoot
     {
         if (this.Status == ContractStatus.Closed)
         {
-            _notifications.AddNotification("ContractAlreadyClosed", "Cannot finalize a contract that is already closed.");
+            _notifications.AddNotification("ContratoJáFinalizado", "Não é possível finalizar um contrato que já está finalizado.");
         }
 
         if (!this._participants.Any(p => p.Type == ParticipantType.Holder))
         {
-            _notifications.AddNotification("NoHolders", "Contract must have at least one holder.");
+            _notifications.AddNotification("SemTitular", "O contrato deve ter pelo menos um titular.");
         }
 
         if (string.IsNullOrWhiteSpace(contractNumberValue) || contractNumberValue.Length != 12)
         {
-            _notifications.AddNotification("InvalidContractNumber", "Contract Number must have 12 digits.");
+            _notifications.AddNotification("NúmeroContratóInválido", "O número do contrato deve ter 12 dígitos.");
         }
 
         this.ContractNumberValue = contractNumberValue;
