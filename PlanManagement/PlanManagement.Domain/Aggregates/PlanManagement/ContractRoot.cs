@@ -1,6 +1,7 @@
 ﻿using EventDriven.Domain.ValueObjects;
 using PlanManagement.Domain.Aggregates.PlanManagement;
 using Domain.Exceptions;
+using EventDriven.Domain.Events;
 
 namespace EventDriven.Domain.Aggregates.PlanManagement;
 
@@ -60,12 +61,12 @@ public class ContractRoot
         this.ContractNumberValue = contractNumberValue;
         this.Status = ContractStatus.Closed;
 
-        //DomainEvents.Raise(new ContractClosedEvent(
-        //    this.Id,
-        //    this.ContractNumberValue,
-        //    this.InitialValue.Amount,
-        //    DateTime.UtcNow
-        //));
+        DomainEvents.Raise(new ContractClosedEvent(
+            this.Id,
+            this.ContractNumberValue,
+            this.InitialValue.Amount,
+            DateTime.UtcNow
+        ));
     }
 }
 
